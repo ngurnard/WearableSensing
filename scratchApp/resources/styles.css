@@ -1,4 +1,4 @@
-.sensor-label {
+.sensor-label { 
     font-family: System-Regular;
     fill: white;
     text-anchor: middle;
@@ -24,4 +24,12 @@
     fill: white;
     x: 3%;
     y: 4%; 
+}
+
+.start_button {
+    width: 50;
+    height: 50;
+    fill:  #50BA7B;
+    x: 50%;
+    y: 50%;
 }

@@ -36,6 +36,11 @@ const dateTime = new DateTime();
 // Battery
 const batteryLevels = new BatteryLevels();
 
+let batteryLevel = document.getElementById("battery-level");
+let batteryPercent = document.getElementById("batteryPercent");
+batteryPercent.text = "%";
+batteryLevel.width = batteryLevels.get().level;
+
 // Automatically stop all sensors when the screen is off to conserve battery
 display.addEventListener("change", () => {
     display.on ? sensors.map(sensor => sensor.start()) : sensors.map(sensor => sensor.stop());
@@ -101,4 +106,18 @@ if (OrientationSensor) {
 } else {
     orientationLabel.style.display = "none";
     orientationData.style.display = "none";
+}
+
+
+
+function setTextColor(color) {
+    let domElemets = [
+      "heart",
+      "steps",
+      "batteryPercent",
+      "date",
+    ];
+    domElemets.forEach((ele) => {
+      document.getElementById(ele).style.fill = color;
+    });
 }
