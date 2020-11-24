@@ -1,0 +1,27 @@
+.sensor-label {
+    font-family: System-Regular;
+    fill: white;
+    text-anchor: middle;
+    text-length: 32;
+    font-size: 20;
+    x: 50%;
+    y: $+5;
+}
+  
+.sensor-data {
+    font-family: System-Light;
+    fill: #FCDC3F; 
+    text-anchor: middle;
+    text-length: 64;
+    font-size: 20;
+    x: 50%;
+    y: $;
+}
+
+#battery-level {
+    width: 30; 
+    height: 17; 
+    fill: white;
+    x: 3%;
+    y: 4%; 
+}
