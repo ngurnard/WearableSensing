@@ -22,10 +22,22 @@
     width: 30; 
     height: 17; 
     fill: white;
-    x: 3%;
-    y: 4%; 
+    x: 10%;
+    y: 10%; 
+}
+#batteryPercent {
+    fill: #ffffff;
+    x: 20%;
+    y: 10%+3;
 }
 
+.battery-image { 
+    fill: #50BA7B;  
+    width: 32;
+    height: 33;
+    x: 10%;
+    y: 8%;
+}
 .start_button {
     width: 50;
     height: 50;
@@ -33,3 +45,4 @@
     x: 50%;
     y: 50%;
 }
+
