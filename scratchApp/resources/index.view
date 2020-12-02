@@ -19,6 +19,8 @@
     </g>
     <rect id="bat-fill"/>
     <rect id="startButton"/>
+    <circle id="circle1" cx="36%" cy="251" r="50"/>
+    <circle id="circle2" cx="65%" cy="251" r="50"/>
     <text id="bat-count" class="count sideCount">87%</text> 
   </svg> 
 
