@@ -1,0 +1,68 @@
+.sensor-label {
+    font-family: System-Regular;
+    fill: white;
+    text-anchor: middle;
+    text-length: 32;
+    font-size: 20;
+    x: 50%;
+    y: $+5;
+}
+  
+.sensor-data {
+    font-family: System-Light;
+    fill: #FCDC3F;
+    text-anchor: middle;
+    text-length: 64;
+    font-size: 20;
+    x: 50%;
+    y: $;
+}
+  
+#bat {
+    transform: translate(100%-78,163);
+}
+  
+#bat-body {
+    y: 30;
+    x: 30;
+    height: 16;
+    width: 22;
+    fill: #ffffff;
+}
+  
+#bat-head {
+    y: 33;
+    x: 52;
+    height: 8;
+    width: 2;
+    fill: #FFFFFF;
+}
+  
+#bat-fill {
+    y: 32;
+    height: 12;
+    x: 31;
+    width: 19;
+    fill: #50BA7B;
+}
+  
+#bat-count {
+    font-size: 20;
+    text-anchor: start ;
+    x: 60;
+    y: 45;
+}
+
+text {
+    fill: #FFFFFF;
+    text-length: 250;
+    text-anchor: middle;
+}
+
+#startButton {
+    x: 50;
+    y: 50;
+    height: 110;
+    width: 69;
+    fill: #50BA7B;
+}
