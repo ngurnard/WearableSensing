@@ -1,4 +1,4 @@
-.sensor-label { 
+.sensor-label {
     font-family: System-Regular;
     fill: white;
     text-anchor: middle;
@@ -10,39 +10,59 @@
   
 .sensor-data {
     font-family: System-Light;
-    fill: #FCDC3F; 
+    fill: #FCDC3F;
     text-anchor: middle;
     text-length: 64;
     font-size: 20;
     x: 50%;
     y: $;
 }
-
-#battery-level {
-    width: 30; 
-    height: 17; 
-    fill: white;
-    x: 10%;
-    y: 10%; 
+  
+#bat {
+    transform: translate(100%-78,163);
 }
-#batteryPercent {
+  
+#bat-body {
+    y: 30;
+    x: 30;
+    height: 16;
+    width: 22;
     fill: #ffffff;
-    x: 20%;
-    y: 10%+3;
+}
+  
+#bat-head {
+    y: 33;
+    x: 52;
+    height: 8;
+    width: 2;
+    fill: #FFFFFF;
+}
+  
+#bat-fill {
+    y: 32;
+    height: 12;
+    x: 31;
+    width: 19;
+    fill: #50BA7B;
+}
+  
+#bat-count {
+    font-size: 20;
+    text-anchor: start ;
+    x: 60;
+    y: 45;
 }
 
-.battery-image { 
-    fill: #50BA7B;  
-    width: 32;
-    height: 33;
-    x: 10%;
-    y: 8%;
-}
-.start_button {
-    width: 50;
-    height: 50;
-    fill:  #50BA7B;
-    x: 50%;
-    y: 50%;
+text {
+    fill: #FFFFFF;
+    text-length: 250;
+    text-anchor: middle;
 }
 
+#startButton {
+    x: 50;
+    y: 50;
+    height: 110;
+    width: 69;
+    fill: #50BA7B;
+}
