@@ -60,9 +60,16 @@ text {
 }
 
 #startButton {
-    x: 50;
-    y: 50;
-    height: 110;
-    width: 69;
+    y: 60%;
+    x: 35%;
+    height: 100;
+    width: 100;
+    fill: #50BA7B;
+}
+
+#circle1 {
+    fill: #50BA7B;
+}
+#circle2 {
     fill: #50BA7B;
 }
